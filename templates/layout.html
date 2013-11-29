@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Home of Martin Hagerup</title>
+	<meta name="description" content="">
+	<meta name="author" content="Martin Hagerup">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/default.min.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/base.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/skeleton.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/layout.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css')}}">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico')}}">
+	<link rel="apple-touch-icon" href="{{ url_for('static', filename='images/apple-touch-icon.png')}}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='images/apple-touch-icon-72x72.png')}}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='images/apple-touch-icon-114x114.png')}}">
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns">
+		<section id="header-text">
+			<h1 class="remove-bottom" style="margin-top: 40px">
+				Martin Hagerup
+			</h1>
+			<h5>Software Engineering Student</h5>
+		</section>
+		<section id="header-img">
+			<div class="profile-image"></div>
+		</section>
+			<hr/>
+		</div>
+		<div class="one-third column">
+			<h3>Om Martin?</h3>
+			<p>24 årig student med fagbrev innen serviceelektronikerfaget, og en lidenskap for det meste innen data, elektronikk og teknologi Er for tiden inne i det andre året på Dataingeniør-linjen ved HiST.</p>
+			<p>Jeg vil beskrive meg selv som en tålmodig og nøye person. Liker å tenke fremover. I følge <a href="http://www.belbin.com/">Belbin</a>, har jeg personlighetstrekkene som egner seg til implementer, monitor evaluator og plant.</p>
+		</div>
+		<div class="one-third column">
+			<h3>Spesiellt opptatt av:</h3>
+			<p></p>
+			<ul class="square">
+				<li><strong>Å lære nye ting</strong>: Programmeringsverden er ubegrenset, og det eneste som setter grenser er tid, og ens nysgjerrighet/trang for å lære mer. Jeg liker å kjøre personlige prosjekter på fritiden for å skaffe meg flere verktøy i verktøyskrinet.</li>
+				<li><strong>Musikk</strong>: Stor tilhenger av <a href="http://www.youtube.com/watch?v=W45aUl7PXBU">post-rock</a>, <a href="http://www.youtube.com/watch?v=mehLx_Fjv_c">elektronika</a>, <a href="http://www.youtube.com/watch?v=4UtIDlWk2D0">trip-hop</a>, <a href="http://www.youtube.com/watch?v=s7pF6_PeamU">jazz-hop</a> og <a href="http://www.youtube.com/watch?v=2EvWkUuALGg">funk</a>. </li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>Kontakt?</h3>
+			<p>Den enkleste måten å kontakte meg på, er via mail på <strong>martin.hagerup(a)gmail.com</strong>. Jeg er også å finne andre steder på nettet. F.eks. <a href="https://github.com/kawat0">GitHub</a>, <a href="http://www.linkedin.com/profile/view?id=240937859">LinkedIn</a>, <a href="https://www.facebook.com/martin.hagerup">Facebook</a>, <a href="https://twitter.com/kawat0">Twitter</a>.</p>
+			<h3>Prosjekter</h3>
+			<ul class="square">
+				<li><strong>In-house indikator for neste bussavgang</strong>: Benytte Raspberry pi og 4-linjers LCD-display til å vise en konstant oppdatert avgangstid fra vår nærmeste bussholdeplass. Programmet skrives i Python, og henter sanntidsdata fra AtB. Status: Kabling mellom LCD og pi er komplett. Opprettet kommunikasjon. </li>
+				<li><strong>Dette nettstedet</strong>: Benytter <a href="http://flask.pocoo.org/">Flask</a>, et Python micro-framework til back-end. Fortsatt under utvikling, og har den hensikt å gi trening i Python, og web-utvikling. Så langt har jeg konkludert med at Flask er en drøm å jobbe med over SpringMVC. Men på en annen side er ikke dette et veldig stort prosjekt. Planer: Skrive et CMS for en kommende tech-blogg.</li>
+				<li><strong>2D sidescroller i Unity</strong>: Har fått i oppdrag å skrive det meste av grunnmekanikken til et spillprosjekt innad i kompis-gjengen. Dette vil bestå av script skrevet i C#, og vil gi god innføring i dette språket.
+				</li>
+			</ul>
+
+		</div>
+
+		<!--<div class="one-third column">
+			<h3>Contact &amp; Social Media</h3>
+			<p><img src="{{ url_for('static', filename='images/mhR.jpg')}}"></p>
+		</div>-->
+		<div class="section" id="footer">
+			<p>© 2013 Martin Hagerup. Powered by Flask and Skeleton.</p>
+		</div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
