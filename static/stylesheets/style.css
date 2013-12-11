@@ -23,3 +23,8 @@
     max-width: 340px;
     box-sizing: border-box;
 }
+#social {
+  Text-decoration: none;
+  outline: none;
+  border: 0px none transparent;
+}
