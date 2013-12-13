@@ -1,13 +1,16 @@
-#footer p {
-    float: left; color: #d3d3d3; padding: 10px 0 0 5px;
+#footer{
+    font-family: 'DroidSerifRegular';
+    font-size: 11px;
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
-#footer p a {
-    color: #d3d3d3;
-}
-#footer img {
-    float: right;
-}
+#wrapper{
+  height:100%;
 
+}
 .profile-image {
   background: url("/static/images/mhc.jpg") no-repeat -3px 0;
   background-size: 165px 165px;
@@ -18,11 +21,12 @@
   margin: 20px 0 10px 50px;
 
 }
+
 #header-text {
     float: left;
     max-width: 340px;
-    box-sizing: border-box;
 }
+
 #social {
   Text-decoration: none;
   outline: none;
